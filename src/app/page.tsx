@@ -33,7 +33,7 @@ export default function HvacPage() {
               { name: "About", id: "about" },
               { name: "Contact", id: "contact" },
             ]}
-            button={{ text: "1-404-636-3998", href: "tel:+14046363998" }}
+            button={{ text: "Get a quote ", href: "tel:+14046363998" }}
             animateOnLoad={false}
           />
         </div>
@@ -43,7 +43,7 @@ export default function HvacPage() {
             title="Honest HVAC Service No Upselling "
             description="Mike's 25 years of service bringing you transparent, honest climate control. Emergency availability and same-day service for when you need it most."
             buttons={[
-              { text: "Call for Same-Day Service: 1-404-636-3998", href: "tel:+14046363998" },
+              { text: "", href: "tel:+14046363998" },
             ]}
             buttonAnimation="slide-up"
             imageSrc="https://img.b2bpic.net/premium-photo/hvac-technician-performing-air-condition-heat-pump-units-maintenance_1170794-229517.jpg?id=175819878"
