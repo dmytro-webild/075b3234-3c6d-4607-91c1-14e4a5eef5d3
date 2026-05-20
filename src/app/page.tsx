@@ -6,13 +6,9 @@ import NavbarLayoutFloatingInline from "@/components/navbar/NavbarLayoutFloating
 import HeroOverlay from "@/components/sections/hero/HeroOverlay";
 import MetricSplitMediaAbout from "@/components/sections/about/MetricSplitMediaAbout";
 import FeatureCardOne from "@/components/sections/feature/FeatureCardOne";
-import FeatureBorderGlow from "@/components/sections/feature/featureBorderGlow/FeatureBorderGlow";
-import FeatureCardEight from "@/components/sections/feature/FeatureCardEight";
-import TestimonialCardThirteen from "@/components/sections/testimonial/TestimonialCardThirteen";
-import FaqSplitText from "@/components/sections/faq/FaqSplitText";
 import ContactCTA from "@/components/sections/contact/ContactCTA";
 import FooterMedia from "@/components/sections/footer/FooterMedia";
-import { ShieldCheck, Wrench, DollarSign, Phone } from "lucide-react";
+import { Phone } from "lucide-react";
 
 export default function HvacPage() {
   return (
@@ -62,10 +58,8 @@ export default function HvacPage() {
             title="25 Years of Honest Service"
             description="All County HVAC & Refrigeration was founded on the principle that honest work is the only work. With 25 years of field experience, Mike ensures your systems are repaired right, the first time, without the pushy upselling found at larger companies."
             metrics={[
-              {
-                value: "25+",                title: "Years of professional experience"},
-              {
-                value: "100%",                title: "Transparent pricing policy"},
+              { value: "25+", title: "Years of professional experience" },
+              { value: "100%", title: "Transparent pricing policy" },
             ]}
             imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/hvac/img-2.jpg"
             imageAlt="Technician service"
@@ -90,6 +84,7 @@ export default function HvacPage() {
             gridVariant="uniform-all-items-equal"
             animationType="slide-up"
             textboxLayout="default"
+            useInvertedBackground={false}
           />
         </div>
 
