@@ -40,13 +40,13 @@ export default function HvacPage() {
 
         <div id="hero" data-section="hero">
           <HeroOverlay
-            title="Honest HVAC Service No Upselling Since 1995"
+            title="Honest HVAC Service No Upselling "
             description="Mike's 25 years of service bringing you transparent, honest climate control. Emergency availability and same-day service for when you need it most."
             buttons={[
               { text: "Call for Same-Day Service: 1-404-636-3998", href: "tel:14046363998" },
             ]}
             buttonAnimation="slide-up"
-            imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/hvac/img-1.jpg"
+            imageSrc="https://img.b2bpic.net/premium-photo/hvac-technician-performing-air-condition-heat-pump-units-maintenance_1170794-229517.jpg?id=175819878"
             imageAlt="Professional HVAC service"
             showDimOverlay={true}
           />
@@ -55,10 +55,10 @@ export default function HvacPage() {
         <div id="about" data-section="about">
           <MetricSplitMediaAbout
             tag="About Us"
-            title="25 Years of Honest Service"
-            description="All County HVAC & Refrigeration was founded on the principle that honest work is the only work. With 25 years of field experience, Mike ensures your systems are repaired right, the first time, without the pushy upselling found at larger companies."
+            title="30 Years of Honest Service"
+            description="All County HVAC & Refrigeration was founded on the principle that honest work is the only work. With 30 years of field experience, Mike ensures your systems are repaired right, the first time, without the pushy upselling found at larger companies."
             metrics={[
-              { value: "25+", title: "Years of professional experience" },
+              { value: "30+", title: "Years of professional experience" },
               { value: "100%", title: "Transparent pricing policy" },
             ]}
             imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/hvac/img-2.jpg"
