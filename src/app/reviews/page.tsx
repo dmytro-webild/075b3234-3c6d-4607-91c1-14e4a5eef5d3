@@ -41,6 +41,7 @@ export default function ReviewsPage() {
             showRating={true}
             animationType="slide-up"
             textboxLayout="default"
+            useInvertedBackground={false}
             testimonials={[
               {
                 id: "1",                name: "Kevin Markes",                handle: "Homeowner",                testimonial: "Incredibly honest work. Mike fixed my furnace perfectly without any unnecessary upselling. Rare to find this level of integrity.",                rating: 5,
