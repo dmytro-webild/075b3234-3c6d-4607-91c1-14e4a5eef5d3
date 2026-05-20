@@ -32,6 +32,7 @@ export default function HvacPage() {
               { name: "Services", id: "services" },
               { name: "About", id: "about" },
               { name: "Contact", id: "contact" },
+              { name: "Reviews", id: "reviews" },
             ]}
             button={{ text: "Get a quote ", href: "tel:+14046363998" }}
             animateOnLoad={false}
